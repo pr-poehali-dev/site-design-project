@@ -33,10 +33,10 @@ const Index = () => {
           <section className="py-16 px-6 border-y border-[#1E90FF]/10">
             <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                { icon: "Zap", label: "Живые менторы", desc: "Онлайн-сессии с практиками", color: "#1E90FF" },
-                { icon: "Award", label: "Сертификаты", desc: "Признаются работодателями", color: "#7B61FF" },
+                { icon: "GraduationCap", label: "Живые менторы", desc: "Онлайн-сессии с практиками", color: "#1E90FF" },
+                { icon: "Medal", label: "Сертификаты", desc: "Признаются работодателями", color: "#7B61FF" },
                 { icon: "Users", label: "Сообщество", desc: "2400+ активных студентов", color: "#00D4FF" },
-                { icon: "TrendingUp", label: "Гарантия роста", desc: "96% завершают курс", color: "#1E90FF" },
+                { icon: "BarChart2", label: "Гарантия роста", desc: "96% завершают курс", color: "#1E90FF" },
               ].map((f, i) => (
                 <div key={i} className="text-center group">
                   <div
